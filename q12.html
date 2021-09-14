@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./q12.css">
+    <title>Form</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#"><h2>TO THE NEW</h2></a></li>
+        <li style="float:right"><a class="active" href="#"><h3>Home</h3></a></li>
+        <li style="float:right"><a class="active" href="#"><h4>Quick Help</h4></a></li>
+      </ul>
+    <hr>
+    <br>
+      <div class="form-div">
+          <div class="title-div"><h2>Bug Report</h2></div>
+          
+        <form>
+            <label for="fname">Title<span style="color:#ff0000">*</span></label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname" >Description<span style="color:#ff0000">*</span></label><br>
+
+            <textarea id="w3review" name="w3review" rows="4" cols="50">
+               
+                </textarea>            windows<br>
+            <select id="windows" name="windows">
+                <option value="XP">windows XP</option>
+                <option value="ubuntu">Ubunutu</option>
+                <option value="kali">Kali</option>
+            </select>
+            <br>
+            <br>
+            Product<br>
+            <select id="Product" name="Product">
+                <option value="XP">xyz</option>
+                <option value="ubuntu">abc</option>
+                <option value="kali">def</option>
+            </select>
+            <br>
+            <br>
+            <label for="fname">Version<span style="color:#ff0000">*</span></label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            License
+            <ul>
+                <li><input type="checkbox"></li>
+                <li>Free</li>
+                <li><input type="checkbox"></li>
+                <li>Bussiness</li>
+            </ul>
+            <br>
+            Security<br>
+            <select id="Product" name="Product">
+                <option value="XP">xyz</option>
+                <option value="ubuntu">abc</option>
+                <option value="kali">def</option>
+            </select><br><br>
+            <label for="myfile">Attachment:</label><br>
+                <input type="file" id="myfile" name="myfile" multiple><br><br>
+
+
+            <div lass="form-div">
+                <input type="submit" value="Submit" style="background-color: palegreen;">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

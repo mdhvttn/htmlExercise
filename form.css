@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+}
+
+tr{
+    background-color: lightgray;
+}
+th{
+    height: 50px;
+    background-color: darkgray;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+  }
